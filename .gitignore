@@ -2,3 +2,4 @@ node_modules
 .idea
 dist/app.css
 dist/app.js
+server/node_modules

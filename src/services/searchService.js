@@ -1,18 +1,61 @@
 import Fuse from "fuse.js"
 const content = require("../resources/content.json")
-import {uniq} from 'lodash'
+import {uniq, clone} from 'lodash'
 
-export const getContentElementsBySearch = (searchTerm, categories = []) => {
-    let items = content
+export const getAllItems = () => {
+    const items = clone(content)
+
+    const courses = getAllCourses()
+
+    courses.forEach(course => {
+        for (let i = 0; i !== 6; i++) {
+            items.push({
+                "title": `Ass ${i + 1} - wk ${i + 1}`,
+                "categories": ["Annoucements"],
+                "course": course
+            })
+        }
+    })
+
+    courses.forEach(course => {
+        for (let i = 0; i !== 6; i++) {
+            items.push({
+                "title": `Paper ${i + 1}`,
+                "categories": ["Files"],
+                "course": course
+            })
+        }
+    })
+
+    return items.map((item, i) => {
+        item.index = i + 1
+        return item;
+    })
+}
+
+export const getContentElementsBySearch = (searchTerm, categories = [], courses = []) => {
+    let items = getAllItems()
 
     items = items.filter(item => {
         if (categories.length === 0) {
             return true;
         }
 
+        if (courses.length > 0 && courses.indexOf(item.course) === -1) {
+            return false;
+        }
+
         const intersection = item.categories.filter((n) => categories.includes(n))
 
         return intersection.length > 0
+    })
+
+    items = items.filter(item => {
+        if (courses.length === 0) {
+            return true;
+        }
+
+        return courses.indexOf(item.course) !== -1
     })
 
     if (!searchTerm || searchTerm.length === 0) {
@@ -41,4 +84,10 @@ export const getAllCategories = () => {
     return uniq(content.reduce((categories, item) => {
         return categories.concat(item.categories)
     }, []))
+}
+
+export const getAllCourses = () => {
+    return content
+        .filter(item => item.categories.indexOf("Courses") !== -1)
+        .map(item => item.title)
 }
