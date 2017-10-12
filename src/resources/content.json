@@ -1,27 +1,352 @@
 [
   {
-    "id": "pmp-course",
-    "title": "Preparation Masterproject Software Engineering",
-    "categories": ["Courses"],
-    "course": "Preparation Masterproject Software Engineering"
-  },
-  {
     "id": "re-course",
     "title": "Requirements Engineering",
     "categories": ["Courses"],
-    "course": "Requirements Engineering"
+    "course": "Requirements Engineering",
+    "text": "The result of the reading tests are online, check your gradebook. If you failed the test, yet you read the book: please contact me to convince me face to face that you really read it and the test was flawed.  If you passed the test, yet you DID NOT read the book like you should have, please let me know after the course and help me improve the test. Do not forget to hand in all your assignments!\n[[re-course-material]]"
+  },
+  {
+    "id": "re-course-material",
+    "title": "Requirements Engineering course material",
+    "categories": ["Course pages"],
+    "course": "Requirements Engineering",
+    "text": "All students are required to do all the assignments!!\n[[re-seminar]]\n[[re-work]]. I uploaded on the seminar page the last assignment!"
+  },
+  {
+    "id": "re-seminar",
+    "title": "Requirements Engineering seminar",
+    "categories": ["Course pages"],
+    "course": "Requirements Engineering",
+    "text": "Every week we give seminars! Don't be late and hand-in your assingment on time! I uploaded the last assingment [[re-seminar-work-2]] today!"
+  },
+  {
+    "id": "re-work",
+    "title": "Requirements Engineering work",
+    "categories": ["Course pages"],
+    "course": "Requirements Engineering",
+    "text": "Check these pages every week! [[re-course-extra-work]] [[re-course-group]]"
+  },
+  {
+    "id": "re-course-extra-work",
+    "title": "Requirements Engineering extra work overview",
+    "categories": ["Course pages"],
+    "course": "Requirements Engineering",
+    "text": "All students are required to do all the assignments!!\n[[re-course-extra-work-1]]\n[[re-course-extra-work-2]]"
+  },
+  {
+    "id": "re-course-extra-work-1",
+    "title": "Requirements Engineering extra work 1",
+    "categories": ["Assignments"],
+    "course": "Requirements Engineering",
+    "text": "Lab 1"
+  },
+  {
+    "id": "re-course-extra-work-2",
+    "title": "Requirements Engineering extra work 2",
+    "categories": ["Assignments"],
+    "course": "Requirements Engineering",
+    "text": "Lab 2"
+  },
+  {
+    "id": "re-course-group",
+    "title": "Requirements Engineering group work overview",
+    "categories": ["Course pages"],
+    "course": "Requirements Engineering",
+    "text": "Your [[re-practical]] and [[re-reading]] have all be deliverd in the last week!"
+  },
+  {
+    "id": "re-practical",
+    "title": "Requirements Engineering practical work",
+    "categories": ["Course pages"],
+    "course": "Requirements Engineering",
+    "text": "You have two things that you have to do: [[re-practical-1]] [[re-practical-2]] and the seminars [[re-seminar-work]]"
+  },
+  {
+    "id": "re-practical-1",
+    "title": "Requirements Engineering practical lab 1",
+    "categories": ["Assignments"],
+    "course": "Requirements Engineering",
+    "text": "Lab 1"
+  },
+  {
+    "id": "re-practical-2",
+    "title": "Requirements Engineering practical lab 2",
+    "categories": ["Assignments"],
+    "course": "Requirements Engineering",
+    "text": "Lab 2"
+  },
+  {
+    "id": "re-seminar-work",
+    "title": "Requirements Engineering seminar work",
+    "categories": ["Course pages"],
+    "course": "Requirements Engineering",
+    "text": "The seminar assingments can be found here: [[re-seminar-work-1]] [[re-seminar-work-2]] "
+  },
+  {
+    "id": "re-seminar-work-1",
+    "title": "Requirements Engineering seminar lab 1",
+    "categories": ["Assignments"],
+    "course": "Requirements Engineering",
+    "text": "The seminar assingments can be found here: [[re-seminar-work-1]] [[re-seminar-work-2]] "
+  },
+  {
+    "id": "re-seminar-work-2",
+    "title": "Requirements Engineering seminar lab 2",
+    "categories": ["Assignments"],
+    "course": "Requirements Engineering",
+    "text": "The seminar assingments can be found here: [[re-seminar-work-1]] [[re-seminar-work-2]] "
+  },
+  {
+    "id": "re-reading",
+    "title": "Requirements Engineering reading work",
+    "categories": ["Course pages"],
+    "course": "Requirements Engineering",
+    "text": "You can find reading work on this page. [[re-reading-1]] [[re-reading-2]]"
+  },
+  {
+    "id": "re-reading-1",
+    "title": "Requirements Engineering reading work 1",
+    "categories": ["Assignments"],
+    "course": "Requirements Engineering",
+    "text": "Reading 1"
+  },
+  {
+    "id": "re-reading-2",
+    "title": "Requirements Engineering reading work 1",
+    "categories": ["Assignments"],
+    "course": "Requirements Engineering",
+    "text": "Reading 2"
+  },
+  {
+    "id": "st-course-materials",
+    "title": "Course materials software testing",
+    "categories": ["Course materials"],
+    "course": "Software Testing",
+    "text": "Here are your course materials: Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed sem purus, mollis id iaculis in, blandit ac augue. Quisque condimentum tincidunt semper. Suspendisse purus erat, laoreet eget arcu vitae, porta faucibus neque. Ut venenatis lacus orci, vel ornare nunc ullamcorper ac.\n Book1: [[st-book-1]], Book2: [[st-book-2]], Book3: [[st-book-3]]\n Additional materials: [[st-additional-materials]]\n \n I dont care for structure, so I will post Assignments for labs 4 and 5 here: [[st-ass-4]], [[st-ass-5]]"
+  },
+  {
+    "id": "st-additional-materials",
+    "title": "Additional materials software testing",
+    "categories": ["Course materials"],
+    "course": "Software Testing",
+    "text": "Here are some additional materials: \n Book4: [[st-book-3]], Book5: [[st-book-5]], \n A very important paper: [[st-important-paper-1]]\n Interesting reads: [[st-reads]]"
+  },
+  {
+    "id": "st-reads",
+    "title": "Interesting reads software testing",
+    "categories": ["Course materials"],
+    "course": "Software Testing",
+    "text": "Some interesting reads here."
+  },
+  {
+    "id": "st-important-paper-1",
+    "title": "This is a very important paper",
+    "categories": ["Course materials"],
+    "course": "Software Testing",
+    "text": "This paper is super important!"
+  },
+  {
+    "id": "st-book-1",
+    "title": "Book1",
+    "categories": ["Course materials"],
+    "course": "Software Testing",
+    "text": "This is book 1 for software testing."
+  },
+  {
+    "id": "st-book-2",
+    "title": "Book2",
+    "categories": ["Course materials"],
+    "course": "Software Testing",
+    "text": "This is book 2 for software testing."
+  },
+  {
+    "id": "st-book-3",
+    "title": "Book3",
+    "categories": ["Course materials"],
+    "course": "Software Testing",
+    "text": "This is book 3 for software testing."
+  },
+  {
+    "id": "st-book-4",
+    "title": "Book4",
+    "categories": ["Course materials"],
+    "course": "Software Testing",
+    "text": "This is book 4 for software testing."
+  },
+  {
+    "id": "st-book-5",
+    "title": "Book5",
+    "categories": ["Course materials"],
+    "course": "Software Testing",
+    "text": "This is book 5 for software testing."
+  },
+  {
+    "id": "st-labs",
+    "title": "Labs software tesing",
+    "categories": ["Course materials", "Assignments"],
+    "course": "Software Testing",
+    "text": "Your assignments are here: \n Assignment 1: [[st-ass-1]], Assignment 2: [[st-ass-2]], Assignment 3: [[st-ass-3]]"
+  },
+  {
+    "id": "st-ass-1",
+    "title": "Assignment 1 - week 1",
+    "categories": ["Assignments"],
+    "course": "Software Testing",
+    "text": "Super difficult assignment"
+  },
+  {
+    "id": "st-ass-2",
+    "title": "Assignment 2 - week 2",
+    "categories": ["Assignments"],
+    "course": "Software Testing",
+    "text": "Super difficult assignment"
+  },
+  {
+    "id": "st-ass-3",
+    "title": "Assignment 3 - week 3",
+    "categories": ["Assignments"],
+    "course": "Software Testing",
+    "text": "Super difficult assignment"
+  },
+  {
+    "id": "st-ass-4",
+    "title": "Assignment 4 - week 4",
+    "categories": ["Assignments"],
+    "course": "Software Testing",
+    "text": "Super difficult assignment"
+  },
+  {
+    "id": "st-ass-5",
+    "title": "Assignment 5 - week 5",
+    "categories": ["Assignments"],
+    "course": "Software Testing",
+    "text": "Super difficult assignment"
+  },
+  {
+    "id": "st-workshops",
+    "title": "Worksops - Software Testing",
+    "categories": ["Assignments", "Course materials"],
+    "course": "Software Testing",
+    "text": "Worksop exercvises: blablabla"
   },
   {
     "id": "st-course",
     "title": "Software Testing",
     "categories": ["Courses"],
     "course": "Software Testing",
-    "text": "asdasdasdasjdnaskj \r\n dasjkdasndas d [[st-ass-1]] some [[re-course]] \r\n more links"
+    "text": "This is description for software testing. \n      You can find the course materials here: [[st-course-materials]].\n      Workshops are here: [[st-workshops]]\n      Labs are here: [[st-labs]]\n      Pellentesque nisl metus, tempor a magna eu, accumsan vulputate turpis. Donec eget dui consectetur, aliquet odio a, vulputate metus. Cras et dignissim turpis. Phasellus et est ullamcorper, congue enim in, posuere leo. Fusce nec facilisis risus. Nulla facilisi. Nulla rhoncus ut orci eget lobortis. Sed non erat vitae eros maximus vestibulum at ut ex.\n      \n      Interesting reads: [[st-reads]]"
+  },
+  {
+    "id": "st-course-materials",
+    "title": "Course materials software testing",
+    "categories": ["Course materials"],
+    "course": "Software Testing",
+    "text": "Here are your course materials: Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed sem purus, mollis id iaculis in, blandit ac augue. Quisque condimentum tincidunt semper. Suspendisse purus erat, laoreet eget arcu vitae, porta faucibus neque. Ut venenatis lacus orci, vel ornare nunc ullamcorper ac.\n    Book1: [[st-book-1]], Book2: [[st-book-2]], Book3: [[st-book-3]]\n    Additional materials: [[st-additional-materials]]\n    \n    I don't care for structure, so I will post Assignments for labs 4 and 5 here: [[st-ass-4]], [[st-ass-5]]"
+  },
+  {
+    "id": "st-additional-materials",
+    "title": "Additional materials software testing",
+    "categories": ["Course materials"],
+    "course": "Software Testing",
+    "text": "Here are some additional materials: \n    Book4: [[st-book-3]], Book5: [[st-book-5]], \n    A very important paper: [[st-important-paper-1]]\n    Interesting reads: [[st-reads]]"
+  },
+  {
+    "id": "st-reads",
+    "title": "Interesting reads software testing",
+    "categories": ["Course materials"],
+    "course": "Software Testing",
+    "text": "Some interesting reads here."
+  },
+  {
+    "id": "st-important-paper-1",
+    "title": "This is a very important paper",
+    "categories": ["Course materials"],
+    "course": "Software Testing",
+    "text": "This paper is super important!"
+  },
+  {
+    "id": "st-book-1",
+    "title": "Book1",
+    "categories": ["Course materials"],
+    "course": "Software Testing",
+    "text": "This is book 1 for software testing."
+  },
+  {
+    "id": "st-book-2",
+    "title": "Book2",
+    "categories": ["Course materials"],
+    "course": "Software Testing",
+    "text": "This is book 2 for software testing."
+  },
+  {
+    "id": "st-book-3",
+    "title": "Book3",
+    "categories": ["Course materials"],
+    "course": "Software Testing",
+    "text": "This is book 3 for software testing."
+  },
+  {
+    "id": "st-book-4",
+    "title": "Book4",
+    "categories": ["Course materials"],
+    "course": "Software Testing",
+    "text": "This is book 4 for software testing."
+  },
+  {
+    "id": "st-book-5",
+    "title": "Book5",
+    "categories": ["Course materials"],
+    "course": "Software Testing",
+    "text": "This is book 5 for software testing."
+  },
+  {
+    "id": "st-labs",
+    "title": "Labs software tesing",
+    "categories": ["Course materials", "Assignments"],
+    "course": "Software Testing",
+    "text": "Your assignments are here: \n    Assignment 1: [[st-ass-1]], Assignment 2: [[st-ass-2]], Assignment 3: [[st-ass-3]]"
   },
   {
     "id": "st-ass-1",
     "title": "Assignment 1 - week 1",
-    "categories": ["Annoucements"],
-    "course": "Software Testing"
+    "categories": ["Assignments"],
+    "course": "Software Testing",
+    "text": "Super difficult assignment"
+  },
+  {
+    "id": "st-ass-2",
+    "title": "Assignment 2 - week 2",
+    "categories": ["Assignments"],
+    "course": "Software Testing",
+    "text": "Super difficult assignment"
+  },
+  {
+    "id": "st-ass-3",
+    "title": "Assignment 3 - week 3",
+    "categories": ["Assignments"],
+    "course": "Software Testing",
+    "text": "Super difficult assignment"
+  },
+  {
+    "id": "st-ass-4",
+    "title": "Assignment 4 - week 4",
+    "categories": ["Assignments"],
+    "course": "Software Testing",
+    "text": "Super difficult assignment"
+  },
+  {
+    "id": "st-ass-5",
+    "title": "Assignment 5 - week 5",
+    "categories": ["Assignments"],
+    "course": "Software Testing",
+    "text": "Super difficult assignment"
+  },
+  {
+    "id": "st-workshops",
+    "title": "Worksops - Software Testing",
+    "categories": ["Assignments", "Course materials"],
+    "course": "Software Testing",
+    "text": "Worksop exercvises: blablabla"
   }
 ]
