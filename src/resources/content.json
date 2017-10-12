@@ -4,35 +4,35 @@
     "title": "Requirements Engineering",
     "categories": ["Courses"],
     "course": "Requirements Engineering",
-    "text": "The result of the reading tests are online, check your gradebook. If you failed the test, yet you read the book: please contact me to convince me face to face that you really read it and the test was flawed.  If you passed the test, yet you DID NOT read the book like you should have, please let me know after the course and help me improve the test. Do not forget to hand in all your assignments!\n[[re-course-material]]"
+    "text": "Announcement: The result of the reading tests are online, check your gradebook. If you failed the test, yet you read the book: please contact me to convince me face to face that you really read it and the test was flawed.\n\nIf you passed the test, yet you DID NOT read the book like you should have, please let me know after the course and help me improve the test. \n\nYou can hand-in your assignments on the following location!\n[[re-course-material]]"
   },
   {
     "id": "re-course-material",
     "title": "Requirements Engineering course material",
     "categories": ["Course pages"],
     "course": "Requirements Engineering",
-    "text": "All students are required to do all the assignments!!\n[[re-seminar]]\n[[re-work]]. I uploaded on the seminar page the last assignment!"
+    "text": "All the information about the seminars can be found at the following location: [[re-seminar]].\n\nYou can hand in your work on the following location: [[re-work]]."
   },
   {
     "id": "re-seminar",
     "title": "Requirements Engineering seminar",
     "categories": ["Course pages"],
     "course": "Requirements Engineering",
-    "text": "Every week we give seminars! Don't be late and hand-in your assingment on time! I uploaded the last assingment [[re-seminar-work-2]] today!"
+    "text": "Every week we give seminars! Next week it is about prototyping. You can already access the assignments: [[re-seminar-work-2]] today!"
   },
   {
     "id": "re-work",
     "title": "Requirements Engineering work",
     "categories": ["Course pages"],
     "course": "Requirements Engineering",
-    "text": "Check these pages every week! [[re-course-extra-work]] [[re-course-group]]"
+    "text": "Check these pages every week! We have extra work for the persons that would get an A: [[re-course-extra-work]].\n\nThe rest of the work is all group work. You can find the assingments on the following location: [[re-course-group]]"
   },
   {
     "id": "re-course-extra-work",
     "title": "Requirements Engineering extra work overview",
     "categories": ["Course pages"],
     "course": "Requirements Engineering",
-    "text": "All students are required to do all the assignments!!\n[[re-course-extra-work-1]]\n[[re-course-extra-work-2]]"
+    "text": "Extra work 1 is about induction: [[re-course-extra-work-1]]\n\n Extra work 2 is about testing: [[re-course-extra-work-2]]"
   },
   {
     "id": "re-course-extra-work-1",
@@ -53,14 +53,14 @@
     "title": "Requirements Engineering group work overview",
     "categories": ["Course pages"],
     "course": "Requirements Engineering",
-    "text": "Your [[re-practical]] and [[re-reading]] have all be deliverd in the last week!"
+    "text": "The group work is devided in two parts.\n\n* Practical: [[re-practical]]\n* Reading: [[re-reading]]."
   },
   {
     "id": "re-practical",
     "title": "Requirements Engineering practical work",
     "categories": ["Course pages"],
     "course": "Requirements Engineering",
-    "text": "You have two things that you have to do: [[re-practical-1]] [[re-practical-2]] and the seminars [[re-seminar-work]]"
+    "text": "There are two general practical assingments:\n\n[[re-practical-1]]\n[[re-practical-2]]\n\nAnd there is seminar work: [[re-seminar-work]]"
   },
   {
     "id": "re-practical-1",
@@ -81,42 +81,49 @@
     "title": "Requirements Engineering seminar work",
     "categories": ["Course pages"],
     "course": "Requirements Engineering",
-    "text": "The seminar assingments can be found here: [[re-seminar-work-1]] [[re-seminar-work-2]] "
+    "text": "There are two seminar. They are about induction and testing:\n\n[[re-seminar-work-1]]\n[[re-seminar-work-2]] "
   },
   {
     "id": "re-seminar-work-1",
     "title": "Requirements Engineering seminar lab 1",
     "categories": ["Assignments"],
     "course": "Requirements Engineering",
-    "text": "Seminar lab 1"
+    "text": "Seminar lab 1. Upload your assingment here: [[re-upload]]"
+  },
+  {
+    "id": "re-upload",
+    "title": "Upload your work",
+    "categories": ["Assignments"],
+    "course": "Requirements Engineering",
+    "text": "You uploaded your work!"
   },
   {
     "id": "re-seminar-work-2",
     "title": "Requirements Engineering seminar lab 2",
     "categories": ["Assignments"],
     "course": "Requirements Engineering",
-    "text": "Seminar lab 1"
+    "text": "Seminar lab 2"
   },
   {
     "id": "re-reading",
     "title": "Requirements Engineering reading work",
     "categories": ["Course pages"],
     "course": "Requirements Engineering",
-    "text": "You can find reading work on this page. [[re-reading-1]] [[re-reading-2]]"
+    "text": "You have too read two books:\n\n[[re-reading-1]]\n[[re-reading-2]]"
   },
   {
     "id": "re-reading-1",
     "title": "Requirements Engineering reading work 1",
     "categories": ["Assignments"],
     "course": "Requirements Engineering",
-    "text": "Reading 1"
+    "text": "Book1.pdf"
   },
   {
     "id": "re-reading-2",
-    "title": "Requirements Engineering reading work 1",
+    "title": "Requirements Engineering reading work 2",
     "categories": ["Assignments"],
     "course": "Requirements Engineering",
-    "text": "Reading 2"
+    "text": "Book2.pdf"
   },
   {
     "id": "st-course-materials",
@@ -348,5 +355,110 @@
     "categories": ["Assignments", "Course materials"],
     "course": "Software Testing",
     "text": "Worksop exercvises: blablabla"
+  },
+  {
+    "id": "philosophy-course",
+    "title": "Philosophy",
+    "categories": ["Courses"],
+    "course": "Philosophy",
+    "text": "An introduction to modern philosophy, from the Renaissance to the present, with careful study of works by Descartes, Hume, Kant, and others. Emphasis is placed upon the complex relations of philosophy to the development of modern science, the social and political history of the West, and man's continuing attempt to achieve a satisfactory worldview. \n\nCourse materials can be found here: [[philosophy-course-materials]] \nPlease hand in assignments on time. Descriptions and upload forms are here: [[philosophy-assignments]]\nAn example exam can be found here: [[philosophy-example-exam]].\n\nSuccess!"
+  },
+  {
+    "id": "philosophy-course-materials",
+    "title": "Philosophy - course materials",
+    "categories": ["Course materials"],
+    "course": "Philosophy",
+    "text": "Pleas read the following materials:\n\nWeek 1: [[philosophy-paper-1]], [[philosophy-paper-2]] \n Week 2: [[philosophy-paper-3]]\n Week 3: [[philosophy-paper-4]]\nWeek4: [[philosophy-paper-5]], [[philosophy-paper-6]], [[philosophy-paper-7]]."
+  },
+  {
+    "id": "philosophy-paper-1",
+    "title": "Philosophy - reads - paper 1",
+    "categories": ["Course materials"],
+    "course": "Philosophy",
+    "text": "Paper 1"
+  },
+  {
+    "id": "philosophy-paper-2",
+    "title": "Philosophy - reads - paper 2",
+    "categories": ["Course materials"],
+    "course": "Philosophy",
+    "text": "Paper 2"
+  },
+  {
+    "id": "philosophy-paper-3",
+    "title": "Philosophy - reads - paper 3",
+    "categories": ["Course materials"],
+    "course": "Philosophy",
+    "text": "Paper 3"
+  },
+  {
+    "id": "philosophy-paper-4",
+    "title": "Philosophy - reads - paper 4",
+    "categories": ["Course materials"],
+    "course": "Philosophy",
+    "text": "Paper 4"
+  },
+  {
+    "id": "philosophy-paper-5",
+    "title": "Philosophy - reads - paper 5",
+    "categories": ["Course materials"],
+    "course": "Philosophy",
+    "text": "Paper 5"
+  },
+  {
+    "id": "philosophy-paper-6",
+    "title": "Philosophy - reads - paper 6",
+    "categories": ["Course materials"],
+    "course": "Philosophy",
+    "text": "Paper 6"
+  },
+  {
+    "id": "philosophy-paper-7",
+    "title": "Philosophy - reads - paper 7",
+    "categories": ["Course materials"],
+    "course": "Philosophy",
+    "text": "Paper 7"
+  },
+  {
+    "id": "philosophy-assignments",
+    "title": "Philosophy - Assignments",
+    "categories": ["Assignments"],
+    "course": "Philosophy",
+    "text": "There are only two assignments:\nAssignment 1 (end of week 2): [[philosophy-assignment-1]],\nAssignment 2 (end of week 4): [[philosophy-assignment-1]]."
+  },
+  {
+    "id": "philosophy-assignment-1",
+    "title": "Philosophy - Assignment 1",
+    "categories": ["Assignments"],
+    "course": "Philosophy",
+    "text": "Please write an essay about Plato.\nUpload your results here: [[philosophy-assignment-1-upload]]."
+  },
+  {
+    "id": "philosophy-assignment-2",
+    "title": "Philosophy - Assignment 2",
+    "categories": ["Assignments"],
+    "course": "Philosophy",
+    "text": "Please write an essay about Descartes.\nUpload your results here: [[philosophy-assignment-2-upload]]."
+  },
+  {
+    "id": "philosophy-assignment-1-upload",
+    "title": "Philosophy - Assignment 1 - Upload",
+    "categories": ["Assignments"],
+    "course": "Philosophy",
+    "text": "Here comes an upload form."
+  },
+  {
+    "id": "philosophy-assignment-2-upload",
+    "title": "Philosophy - Assignment 2 - Upload",
+    "categories": ["Assignments"],
+    "course": "Philosophy",
+    "text": "Here comes an upload form."
+  },
+  {
+    "id": "philosophy-example-exam",
+    "title": "Philosophy - Example exam",
+    "categories": ["Course materials"],
+    "course": "Philosophy",
+    "text": "1. Should knowledge of a future psychological disruption make you indifferent to any fortune or misfortune that succeeds it?\n2. Were you once a foetus?\n3. Is there anything wrong with conceiving of miracles as contraventions of the laws of nature?\n4. Is there a convincing version of the cosmological argument?\n5. Do theists need to answer the problem of evil? Can they?\n6. Explain and illustrate the difference between over-determination and pre-emption. Why does this difference matter for theories of causation?\n7. Are causes necessary and/or sufficient for their effects?"
   }
 ]
