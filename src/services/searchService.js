@@ -7,28 +7,11 @@ export const getAllItems = () => {
 
     const courses = getAllCourses()
 
-    courses.forEach(course => {
-        for (let i = 0; i !== 6; i++) {
-            items.push({
-                "title": `Ass ${i + 1} - wk ${i + 1}`,
-                "categories": ["Annoucements"],
-                "course": course
-            })
-        }
-    })
-
-    courses.forEach(course => {
-        for (let i = 0; i !== 6; i++) {
-            items.push({
-                "title": `Paper ${i + 1}`,
-                "categories": ["Files"],
-                "course": course
-            })
-        }
-    })
-
     return items.map((item, i) => {
-        item.index = i + 1
+        if(!item.index){
+            item.index = i + 1
+        }
+
         return item;
     })
 }
