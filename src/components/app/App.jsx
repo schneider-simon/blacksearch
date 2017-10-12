@@ -45,12 +45,11 @@ class App extends React.Component {
                 <div>
                     <nav className="navbar navbar-toggleable-md navbar-light bg-faded">
                         <a className="navbar-brand" href="#">BlackSearch</a>
-
-                        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                        <div className="searchbar collapse navbar-collapse" id="navbarSupportedContent">
                             <form className="form-inline my-2 my-lg-0">
                                 <div className="input-group">
                               <span className="input-group-btn">
-                                <Link to="/" className="btn btn-secondary" type="button"><i className="fa fa-caret-left" aria-hidden="true"/></Link>
+                                <Link to="/" className="btn btn-secondary" type="button">&larr;</Link>
                               </span>
                                     <input value={this.state.searchTerm} onChange={this.onSearchChange} className="form-control mr-sm-2" type="text" placeholder="Search"/>
                                 </div>

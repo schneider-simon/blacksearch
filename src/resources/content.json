@@ -1,21 +1,26 @@
 [
   {
+    "id": "pmp-course",
     "title": "Preparation Masterproject Software Engineering",
     "categories": ["Courses"],
     "course": "Preparation Masterproject Software Engineering"
   },
   {
+    "id": "re-course",
     "title": "Requirements Engineering",
     "categories": ["Courses"],
     "course": "Requirements Engineering"
   },
   {
+    "id": "st-course",
     "title": "Software Testing",
     "categories": ["Courses"],
-    "course": "Software Testing"
+    "course": "Software Testing",
+    "text": "asdasdasdasjdnaskj dasjkdasndas d #st-ass-1"
   },
   {
-    "title": "Ass 1 - wk 1",
+    "id": "st-ass-1",
+    "title": "Assignment 1 - week 1",
     "categories": ["Annoucements"],
     "course": "Software Testing"
   }
