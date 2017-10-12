@@ -2,6 +2,7 @@ import React from 'react';
 import {getAllCategories, getAllCourses} from "../services/searchService"
 import {clone} from "lodash"
 import {Link} from "react-router-dom"
+import {searchIsEnabled} from "../services/optionsService"
 
 class SearchPage extends React.Component {
     renderCategories(item) {
@@ -19,18 +20,26 @@ class SearchPage extends React.Component {
     }
 
     renderItems() {
-        return this.props.items.map((item, i) => {
-            return <div key={i} className="card">
-                <div className="card-block">
-                    {item.title} {this.renderCourse(item)}
-                    <br/>
-                    {this.renderCategories(item)}
+        return this.props.items
+            .filter(item => {
+                if (!searchIsEnabled() && item.categories[0] !== 'Courses') {
+                    return false
+                }
+
+                return true
+            })
+            .map((item, i) => {
+                return <div key={i} className="card">
+                    <div className="card-block">
+                        {item.title} {this.renderCourse(item)}
+                        <br/>
+                        {this.renderCategories(item)}
+                    </div>
+                    <div className="card-footer text-right">
+                        <Link to={`/page/${item.id}`} className="btn btn-sm btn-secondary">Read more</Link>
+                    </div>
                 </div>
-                <div className="card-footer text-right">
-                    <Link to={`/page/${item.id}`} className="btn btn-sm btn-secondary">Read more</Link>
-                </div>
-            </div>
-        })
+            })
     }
 
     onChangeCategoryFilter(category) {
@@ -89,30 +98,41 @@ class SearchPage extends React.Component {
         })
     }
 
-    render() {
-        return (
-            <div className="container">
-                <div className="row">
-                    <div className="col-md-4">
-                        Categories
-                        <ul className="list-group">
-                            {this.renderCategoryCheckboxes()}
-                        </ul>
-                        <hr/>
-                        Your courses
-                        <ul className="list-group">
-                            {this.renderCourseCheckboxes()}
-                        </ul>
-                    </div>
-                    <div className="col-md-8">
-                        <div className="search-result-items">
-                            {this.renderItems()}
-                        </div>
+    renderWithSearch() {
+        return <div className="container">
+            <div className="row">
+                <div className="col-md-4">
+                    Categories
+                    <ul className="list-group">
+                        {this.renderCategoryCheckboxes()}
+                    </ul>
+                    <hr/>
+                    Your courses
+                    <ul className="list-group">
+                        {this.renderCourseCheckboxes()}
+                    </ul>
+                </div>
+                <div className="col-md-8">
+                    <div className="search-result-items">
+                        {this.renderItems()}
                     </div>
                 </div>
             </div>
+        </div>
+    }
 
-        );
+    render() {
+        if (searchIsEnabled()) {
+            return this.renderWithSearch()
+        }
+
+        return <div className="container">
+            <div className="col-md-8">
+                <div className="search-result-items">
+                    {this.renderItems()}
+                </div>
+            </div>
+        </div>
     }
 }
 
