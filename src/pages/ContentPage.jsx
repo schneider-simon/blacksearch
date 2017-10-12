@@ -1,11 +1,10 @@
 import React from 'react';
-import {getAllItems} from "../services/searchService"
+import {findItemById, getAllItems} from "../services/searchService"
+import {renderContentText} from "../services/textService"
 
 class ContentPage extends React.Component {
     getContentItem() {
-        return getAllItems().find((item) => {
-            return parseInt(item.index) === parseInt(this.props.match.params.id)
-        })
+        return findItemById( this.props.match.params.id)
     }
 
     renderSampleContent() {
@@ -43,7 +42,7 @@ class ContentPage extends React.Component {
             return this.renderSampleContent()
         }
 
-        return item.text
+        return renderContentText(item.text)
     }
 
     render() {

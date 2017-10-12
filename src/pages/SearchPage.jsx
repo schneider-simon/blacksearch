@@ -27,7 +27,7 @@ class SearchPage extends React.Component {
                     {this.renderCategories(item)}
                 </div>
                 <div className="card-footer text-right">
-                    <Link to={`/page/${item.index}`} className="btn btn-sm btn-secondary">Read more</Link>
+                    <Link to={`/page/${item.id}`} className="btn btn-sm btn-secondary">Read more</Link>
                 </div>
             </div>
         })

@@ -16,6 +16,12 @@ export const getAllItems = () => {
     })
 }
 
+export const findItemById = (id) => {
+    return getAllItems().find((item) => {
+        return item.id == id
+    })
+}
+
 export const getContentElementsBySearch = (searchTerm, categories = [], courses = []) => {
     let items = getAllItems()
 
