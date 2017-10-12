@@ -88,7 +88,14 @@
     "title": "Requirements Engineering seminar lab 1",
     "categories": ["Assignments"],
     "course": "Requirements Engineering",
-    "text": "Seminar lab 1"
+    "text": "Seminar lab 1. Upload your assingment here: [[re-upload]]"
+  },
+  {
+    "id": "re-upload",
+    "title": "Upload your work",
+    "categories": ["Assignments"],
+    "course": "Requirements Engineering",
+    "text": "You uploaded your work!"
   },
   {
     "id": "re-seminar-work-2",
