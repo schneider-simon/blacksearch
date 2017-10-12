@@ -348,5 +348,110 @@
     "categories": ["Assignments", "Course materials"],
     "course": "Software Testing",
     "text": "Worksop exercvises: blablabla"
+  },
+  {
+    "id": "philosophy-course",
+    "title": "Philosophy",
+    "categories": ["Courses"],
+    "course": "Philosophy",
+    "text": "An introduction to modern philosophy, from the Renaissance to the present, with careful study of works by Descartes, Hume, Kant, and others. Emphasis is placed upon the complex relations of philosophy to the development of modern science, the social and political history of the West, and man's continuing attempt to achieve a satisfactory worldview. \n\nCourse materials can be found here: [[philosophy-course-materials]] \nPlease hand in assignments on time. Descriptions and upload forms are here: [[philosophy-assignments]]\nAn example exam can be found here: [[philosophy-example-exam]].\n\nSuccess!"
+  },
+  {
+    "id": "philosophy-course-materials",
+    "title": "Philosophy - course materials",
+    "categories": ["Course materials"],
+    "course": "Philosophy",
+    "text": "Pleas read the following materials:\n\nWeek 1: [[philosophy-paper-1]], [[philosophy-paper-2]] \n Week 2: [[philosophy-paper-3]]\n Week 3: [[philosophy-paper-4]]\nWeek4: [[philosophy-paper-5]], [[philosophy-paper-6]], [[philosophy-paper-7]]."
+  },
+  {
+    "id": "philosophy-paper-1",
+    "title": "Philosophy - reads - paper 1",
+    "categories": ["Course materials"],
+    "course": "Philosophy",
+    "text": "Paper 1"
+  },
+  {
+    "id": "philosophy-paper-2",
+    "title": "Philosophy - reads - paper 2",
+    "categories": ["Course materials"],
+    "course": "Philosophy",
+    "text": "Paper 2"
+  },
+  {
+    "id": "philosophy-paper-3",
+    "title": "Philosophy - reads - paper 3",
+    "categories": ["Course materials"],
+    "course": "Philosophy",
+    "text": "Paper 3"
+  },
+  {
+    "id": "philosophy-paper-4",
+    "title": "Philosophy - reads - paper 4",
+    "categories": ["Course materials"],
+    "course": "Philosophy",
+    "text": "Paper 4"
+  },
+  {
+    "id": "philosophy-paper-5",
+    "title": "Philosophy - reads - paper 5",
+    "categories": ["Course materials"],
+    "course": "Philosophy",
+    "text": "Paper 5"
+  },
+  {
+    "id": "philosophy-paper-6",
+    "title": "Philosophy - reads - paper 6",
+    "categories": ["Course materials"],
+    "course": "Philosophy",
+    "text": "Paper 6"
+  },
+  {
+    "id": "philosophy-paper-7",
+    "title": "Philosophy - reads - paper 7",
+    "categories": ["Course materials"],
+    "course": "Philosophy",
+    "text": "Paper 7"
+  },
+  {
+    "id": "philosophy-assignments",
+    "title": "Philosophy - Assignments",
+    "categories": ["Assignments"],
+    "course": "Philosophy",
+    "text": "There are only two assignments:\nAssignment 1 (end of week 2): [[philosophy-assignment-1]],\nAssignment 2 (end of week 4): [[philosophy-assignment-1]]."
+  },
+  {
+    "id": "philosophy-assignment-1",
+    "title": "Philosophy - Assignment 1",
+    "categories": ["Assignments"],
+    "course": "Philosophy",
+    "text": "Please write an essay about Plato.\nUpload your results here: [[philosophy-assignment-1-upload]]."
+  },
+  {
+    "id": "philosophy-assignment-2",
+    "title": "Philosophy - Assignment 2",
+    "categories": ["Assignments"],
+    "course": "Philosophy",
+    "text": "Please write an essay about Descartes.\nUpload your results here: [[philosophy-assignment-2-upload]]."
+  },
+  {
+    "id": "philosophy-assignment-1-upload",
+    "title": "Philosophy - Assignment 1 - Upload",
+    "categories": ["Assignments"],
+    "course": "Philosophy",
+    "text": "Here comes an upload form."
+  },
+  {
+    "id": "philosophy-assignment-2-upload",
+    "title": "Philosophy - Assignment 2 - Upload",
+    "categories": ["Assignments"],
+    "course": "Philosophy",
+    "text": "Here comes an upload form."
+  },
+  {
+    "id": "philosophy-example-exam",
+    "title": "Philosophy - Example exam",
+    "categories": ["Course materials"],
+    "course": "Philosophy",
+    "text": "1. Should knowledge of a future psychological disruption make you indifferent to any fortune or misfortune that succeeds it?\n2. Were you once a foetus?\n3. Is there anything wrong with conceiving of miracles as contraventions of the laws of nature?\n4. Is there a convincing version of the cosmological argument?\n5. Do theists need to answer the problem of evil? Can they?\n6. Explain and illustrate the difference between over-determination and pre-emption. Why does this difference matter for theories of causation?\n7. Are causes necessary and/or sufficient for their effects?"
   }
 ]
